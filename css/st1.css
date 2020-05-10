@@ -1,0 +1,479 @@
+@charset "utf-8";
+
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css)*/
+
+/* -- main theme -- */
+html, body
+{
+  	/*
+    font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Noto Sans Japanese", Meiryo, "メイリオ", sans-serif;
+    */
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, 'Yu Gothic Medium', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  	/*-webkit-text-size-adjust: 100%;*/
+  	color: #ffffff;
+  	font-size: 100%;
+  	height: 100%;
+    line-height: 140%;
+  	text-align: center;
+  	font-weight: normal;
+  	/*background-image: url(../img/p00ut40.jpg);*/
+    background-image: url(../img/colonytile.jpg);
+  	background-position: center center;
+  	background-repeat: repeat;
+  	background-attachment: fixed;
+  	/*background-size: cover;*/
+  	background-color: #444444;
+  	/*min-width: 500px;*/
+    overflow
+}
+@media only screen and (max-width: 767px)
+{
+	body
+	{
+    		background-image: url(../img/colonytile.jpg);
+	}
+}
+
+
+a
+{
+	color: #ffffff;
+}
+
+a:hover
+{
+	color: #dbb94d;
+}
+
+hr.base {
+ height: 0px;
+ background-color: white;
+ width: 100%;
+ border: none;
+}
+
+hr.h1 {
+ height: 0px;
+ background-color: rgba(255, 255, 255, 0.0);
+ width: 100%;
+ max-width: 760px;
+ border: none;
+}
+
+hr.h2 {
+ height: 0px;
+ background-color: rgba(255, 255, 255, 0.0);
+ width: 100%;
+ max-width: 760px;
+ border: none;
+}
+
+/* -- layout -- */
+
+#container
+{
+  	position: relative;
+  	width: 100%;
+	height: auto !important;
+	height: 100%;
+  min-height: 100%;
+}
+
+#containerf
+{
+  	width: 100%;
+}
+
+
+
+#header
+{
+  	height: 0px;
+}
+
+
+#contents
+{
+  width: 95%;
+  	padding-bottom: 5px;
+}
+
+
+#footer
+{
+  	height: 20px;
+  	bottom: 0;
+  	width: 100%;
+  	margin: auto;
+}
+
+#general
+{
+	text-align: center;
+	color: #ffffff;
+}
+
+#general table
+{
+	text-align: center;
+  	color: #ffffff;
+	border-collapse: collapse;
+	margin-top: 25px;
+ 	margin-bottom: 15px;
+	padding: 15px;
+}
+
+#general table.pg
+{
+	text-align: left;
+  /*min-width: 250px;
+  max-width: 580px;*/
+	background-color: rgba(0, 0, 0, 1.0);
+   	border-left: 8px solid #ffffff;
+	color: #ffffff;
+}
+
+#general table.pg2
+{
+	text-align: left;
+	width: 760px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 0px solid #ffffff;
+	border-radius: 8px;
+}
+
+#general table.theme
+{
+	text-align: left;
+  width: 100%;
+  min-width: 50px;
+  max-width: 760px;
+	/*width: 580px;*/
+	background-color: rgba(0, 0, 0, 0.0);
+	border: 0px solid #ffffff;
+	border-radius: 0px;
+	margin-top: 10px;
+ 	margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#general table.topnavsp
+{
+	margin-top: 50px;
+ 	margin-bottom: 50px;
+}
+
+#general td
+{
+	border: 8px solid rgba(0, 0, 0, 0.0);
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+#general td.title
+{
+	white-space: normal;
+}
+
+#general table.ldm
+{
+	text-align: left;
+  width: 100%;
+  min-width: 50px;
+  max-width: 760px;
+	background-color: rgba(0, 0, 0, 0.0);
+  color: rgba(0, 0, 0, 0.0);
+	border: 0px solid #ffffff;
+	border-radius: 0px;
+	margin-top: 10px;
+ 	margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  -moz-user-select: none; /* Firefox */
+　-ms-user-select: none; /* Internet Explorer */
+　-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+　-webkit-user-select: none; /* Chrome, Safari, and Opera */
+　-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+
+#seminar
+{
+	text-align: center;
+	color: #ffffff;
+}
+
+#seminar table
+{
+	text-align: center;
+  	color: #ffffff;
+	border-collapse: collapse;
+	margin-top: 25px;
+ 	margin-bottom: 15px;
+	padding: 15px;
+}
+
+
+
+#seminar table.pg
+{
+	text-align: left;
+	width: 480px;
+	background-color: #666666;
+   	border-left: 8px solid #ffffff;
+	color: #ffffff;
+}
+
+#seminar table.pg2
+{
+	text-align: left;
+	width: 480px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 0px solid #ffffff;
+	border-radius: 8px;
+}
+
+#seminar table.theme
+{
+	text-align: left;
+	width: 480px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 0px solid #ffffff;
+	border-radius: 8px;
+	margin-top: 180px;
+ 	margin-bottom: 80px;
+}
+
+#seminar td
+{
+	border: 8px solid rgba(0, 0, 0, 0.0);
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+#seminar td.title
+{
+	white-space: normal;
+}
+
+/* -- level -- */
+h1
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+  font-weight: bold;
+  font-size: 200%;
+  line-height: 110%;
+	vertical-align: baseline;
+	text-align: left;
+	/*color: #dbb94d;*/
+  color: #f0cb54;
+}
+
+
+
+h1.sn1
+{
+    	color: white;
+	font-weight: 700;
+    	text-shadow:
+      	black 1px 1px 0px,
+    	black -1px 1px 0px,
+      	black -1px -1px 0px,
+      	black 1px -1px 0px,
+      	black 1px 0px 0px,
+      	black 0px 1px 0px,
+      	black -1px 0px 0px,
+      	black 0px -1px 0px;
+}
+
+h2
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+  font-weight: bold;
+  font-size: 140%;
+	vertical-align: baseline;
+	text-align: left;
+  color: #ffffff;
+}
+
+h2.sn1
+{
+    	color: white;
+	font-weight: 700;
+    	text-shadow:
+      	black 1px 1px 0px,
+    	black -1px 1px 0px,
+      	black -1px -1px 0px,
+      	black 1px -1px 0px,
+      	black 1px 0px 0px,
+      	black 0px 1px 0px,
+      	black -1px 0px 0px,
+      	black 0px -1px 0px;
+}
+
+
+/* -- table -- */
+table.s
+{
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ptable
+{
+	border:1px solid #ffffff;
+	vertical-align: middle;
+}
+
+.ptable td
+{
+  	border:1px solid #ffffff;
+  	vertical-align: middle;
+  	padding:8px;
+  	line-height: 18pt;
+}
+
+
+/* -- font -- */
+#contents p
+{
+  	line-height: 1.6em;
+}
+
+/* --present-- */
+#contents .path
+{
+  	line-height: 1em;
+  	margin-bottom: 0em;
+}
+
+
+/* -- list -- */
+
+
+
+/* -- menu -- */
+
+.navbar-bg
+{
+    width: 100%;
+  	background-color: rgba(46, 46, 46, 1);
+    height: 81px;
+  	z-index: 9998;
+}
+
+.navbar-logo
+{
+    width: 100%;
+    max-width: 355px;
+  	/*in-width: 500px;*/
+  	background-color: rgba(46, 46, 46, 1);
+    font-weight: bold;
+  	/*height: 80px;*/
+  	z-index: 9999;
+  	/*position: fixed;
+  	top: 0px;*/
+  	/*left: 0px;*/
+}
+
+.navbar-nowrap {
+    white-space: nowrap;
+}
+
+.navbar-normal {
+    white-space: normal;
+}
+
+.navbar a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-nav
+{
+  	color: #ffffff;
+    font-size: 120%;
+}
+
+
+.navbar-nav a:hover
+{
+  	color: #dbb94d;
+    background-color: rgba(56, 61, 79, 1.0);
+}
+
+.navbar-toggler {
+background-color: rgba(46, 46, 46, 0.0);
+border-color: rgba(46, 46, 46, 0.0);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  vertical-align: middle;
+}
+
+
+.inner
+{
+    	position: relative;
+    	margin: 0 auto;
+    	text-align: center;
+}
+
+.left
+{
+  	text-align: left;
+}
+
+.gmap
+{
+	position: relative;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.gmifrm
+{
+	width:480px;
+	height: 360px;
+	border:none;
+	display:block;
+	margin: 0px auto;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+div.box {
+  width: 760px;
+}
+
+ul.cont {
+  width: 100%;
+}
+
+ul.cont li {
+  max-width: 700px;
+}
+
+
+/* -- footer -- */
+#footer p
+{
+  	text-align: center;
+  	color: #ffffff;
+}
+
+
+#copyright
+{
+	font-size: 80%;
+	width: 100%;
+}
