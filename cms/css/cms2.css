@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css)*/
+
+/* -- main theme -- */
+html, body 
+{
+  	font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Noto Sans Japanese", Meiryo, "メイリオ", sans-serif;
+  	-webkit-text-size-adjust: 100%;
+  	color: #ffffff;
+  	font-size: 100%;
+  	height: 100%;
+  	text-align: center;
+  	font-weight: normal;
+  	background-image: url(../img/p00ut40.jpg);
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #444444;
+  	min-width: 500px;
+}
+@media only screen and (max-width: 767px) 
+{
+	body 
+	{
+    		background-image: url(../img/p00ut40s.jpg);
+	}
+}
+
+a 
+{
+	color: #ffffff;
+}
+
+a:hover 
+{
+	color: #ff6694;
+}
+
+
+/* -- layout -- */
+
+#container 
+{
+  	position: relative;
+  	width: 100%;
+	height: auto !important;
+	height: 100%;
+        min-height: 100%;
+}
+
+#containerf 
+{
+  	width: 100%;
+}
+
+#header 
+{
+  	height: 0px;
+}
+
+
+#contents 
+{
+  	padding-bottom: 5px;
+}
+
+
+#footer 
+{
+  	height: 20px;
+  	bottom: 0;
+  	width: 100%;
+  	margin: auto;
+}
+
+#seminar 
+{
+	text-align: center;
+	color: #ffffff;
+}
+
+#seminar table 
+{
+	text-align: center;
+  	color: #ffffff;
+	border-collapse: collapse;
+	margin-top: 25px;
+ 	margin-bottom: 15px;
+	padding: 15px;
+}
+
+
+
+#seminar table.pg 
+{
+	text-align: left;
+	width: 480px;
+	background-color: #666666;
+   	border-left: 8px solid #ffffff;
+	color: #ffffff;
+}
+
+#seminar table.pg2 
+{
+	text-align: left;
+	width: 480px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 0px solid #ffffff;
+	border-radius: 8px;
+}
+
+#seminar table.theme 
+{
+	text-align: left;
+	width: 480px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 0px solid #ffffff;
+	border-radius: 8px;
+	margin-top: 180px;
+ 	margin-bottom: 80px;
+}
+
+#seminar td 
+{ 
+	border: 8px solid rgba(0, 0, 0, 0.0);
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+#seminar td.title 
+{ 
+	white-space: normal;
+}
+
+/* -- level -- */
+h1 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 400;
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+
+h1.sn1 
+{
+    	color: white;
+	font-weight: 700;
+    	text-shadow:
+      	black 1px 1px 0px,
+    	black -1px 1px 0px,
+      	black -1px -1px 0px,
+      	black 1px -1px 0px,
+      	black 1px 0px 0px,
+      	black 0px 1px 0px,
+      	black -1px 0px 0px,
+      	black 0px -1px 0px;
+}
+
+h2 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 200%;
+	line-height: 0px;
+	font-weight: 400;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+h2.sn1 
+{
+    	color: white;
+	font-weight: 700;
+    	text-shadow:
+      	black 1px 1px 0px,
+    	black -1px 1px 0px,
+      	black -1px -1px 0px,
+      	black 1px -1px 0px,
+      	black 1px 0px 0px,
+      	black 0px 1px 0px,
+      	black -1px 0px 0px,
+      	black 0px -1px 0px;
+}
+
+
+/* -- table -- */
+table.s 
+{
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ptable 
+{
+	border:1px solid #ffffff;
+	vertical-align: middle;
+}
+
+.ptable td 
+{
+  	border:1px solid #ffffff;
+  	vertical-align: middle;
+  	padding:8px;
+  	line-height: 18pt;
+}
+
+
+/* -- font -- */
+#contents p 
+{
+  	line-height: 1.6em;
+}
+
+/* --present-- */
+#contents .path 
+{
+  	line-height: 1em;
+  	margin-bottom: 0em;
+}
+
+
+/* -- list -- */
+
+
+
+/* -- menu -- */
+.navbar 
+{
+  	width: 100%;
+  	min-width: 500px;
+  	background-color: rgba(0, 0, 0, 0.8);
+  	height: 90px;
+  	z-index: 9999;
+  	position: fixed;
+  	top: 0px;
+  	left: 0px;
+}
+
+.inner 
+{
+    	position: relative;
+    	margin: 0 auto;
+    	text-align: center;
+}
+  
+.left
+{
+  	text-align: left;
+}
+
+.navbar a 
+{
+  	display: inline-block;
+  	border: 1px solid #fff;
+ 	font-size: 14px;
+  	line-height: 24px;
+  	border-radius: 3px;
+  	padding: 2px 15px;
+  	text-decoration: none;
+ 	 margin-top: 5px;
+}
+
+.gmap 
+{
+	position: relative;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.gmifrm 
+{
+	width:480px;
+	height: 360px;
+	border:none;
+	display:block;
+	margin: 0px auto;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+
+/* -- footer -- */
+#footer p 
+{ 
+  	text-align: center;
+  	color: #ffffff;
+}
+
+
+#copyright
+{
+	font-size: 80%;
+	width: 100%;
+}
